@@ -1,0 +1,73 @@
+/* Universal Selector - applies to all elements, but takes the least precedence. */
+* {
+    color: green;
+}
+
+/* Element Selector - applies properties to the indicated element. */
+p {
+    color:red;
+}
+
+/* Class Selector - for a group of specific elements with the same class */
+.parag1 {
+    color: aquamarine;
+}
+
+/* ID Selector - for a specific element */
+#parag2 {
+    color: brown;
+}
+
+/* Attribute Selector - applies to certain elements with a certain attribute */
+h3[href] {
+    color:pink;
+}
+
+/* Attribute Selector - applies to all elements with a certain attribute */
+[href] {
+    background-color: bisque;
+}
+
+/* Attribute Selector - applies to certain elements with certain attribute values */
+a[href="https://www.example.com"] {
+    color: tomato;
+    background-color: aliceblue;
+}
+
+/* Grouping Selector = applies to multipl elements at once */
+h4, h5, h6 {
+    font-size:20px;
+    color:purple;
+    background-color: lightblue;
+}
+
+/* Pseudo Class Selector - userd to style certain states of an element, like when a button is pressed */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.pseudo:visited {
+    background-color: brown;
+}
+
+/* Pseudo Element Selector - used to further customize */
+h4::after {
+    content: " Placed after h4 ";
+}
+
+h4::before {
+    content: " Placed before h4 ";
+}
+
+h5::first-letter {
+    color: red;
+}
+
+span {
+    color:red;
+}
+
+#heading6 {
+    color:yellow;
+}

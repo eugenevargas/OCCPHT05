@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Internal CSS - like an external CSS file, but within the HTML file. -->
+    <style>
+        p {
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS - Cascading Style Sheets 
+    
+    Order of importance / precendence:
+        1. Inline CSS
+        2. Internal CSS
+        3. External CSS -->
+
+    <h1>CSS Basics</h1>
+
+    <!-- External CSS - uses the linked CSS file. -->
+    <p>This is a paragraph with external styling.</p>
+    
+    <!-- Inline CSS - attached to specific elements.-->
+    <p style="color:blueviolet">This paragraph has inline CSS.</p>
+
+    <!-- Paragraph with class attribute -->
+    <p class="parag1">This is a paragraph with a class attribute.</p>
+    <p id="parag2">This is a paragraph with an ID attribute.</p>
+
+    <h3 href="https://www.example.com">This is a heading element with an href attribute.</h3>
+    <h3>This is a heading without an href attribute.</h3>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.example.com" class="pseudo">Example1</a>
+
+    <h4><span>Heading 4</span> - Grouping Selector</h4>
+    <h5>Heading 5 - Grouping Selector</h5>
+    <h6 id="heading6">Heading 6 - Grouping Selector</h6>
+
+    <button>Click Me!</button>
+</body>
+</html>

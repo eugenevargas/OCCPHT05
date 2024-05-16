@@ -1,0 +1,34 @@
+.background{
+    /* background-color: blue; */
+    background: rgb(36, 3, 0);
+    background: linear-gradient(90deg, rgba(36, 3, 0, 1) 0%, rgba(121, 58, 9, 1) 35%, rgba(255, 88, 0, 1) 100%);
+}   
+
+.font-example {
+    font-family: verdana, system-ui;
+    font-size: 20 px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.line-spacing-example {
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.alignment-example {
+    text-align: center;
+}
+
+.decoration-example {
+    text-decoration: line-through;
+}
+
+.shadow-example {
+    text-shadow: 2px 2px 4px red;
+    /* 
+    1. First Value - X Axis 
+    2. Second Value - Y Axis
+    3. Third Value - Distance / Size
+    4. Fourth Value - Color*/
+}
