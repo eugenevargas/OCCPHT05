@@ -1,0 +1,79 @@
+p {
+    width: 100px;
+    height: 240px;
+    background-color: beige;
+}
+
+/* Padding */
+
+h2 {
+    width: 300px;
+    height: 120px;
+    background-color: blanchedalmond;
+
+    /* 4-Value Padding */
+    padding: 6px 11px 4px 9px;
+
+    /* 1st - Top
+    2nd - Right
+    3rd - Bottom
+    4th - Left */
+}
+
+.padding {
+    width: 200px;
+    height: 300px;
+    background-color: coral;
+    padding-top: 20px;
+    padding-left: 120px;
+
+    /* 1-Value Padding - applies to all sides*/
+    padding: 200px;
+    
+    /* 2-Value Padding - 1st:top & bot, 2nd: left and right*/
+    padding: 100px 200px;
+
+    /* 3-Value Padding - 1st: top, 2nd: sides, 3rd: bot*/
+    padding: 100px 200px 300px;
+
+
+}
+
+/* Borders */
+
+h3 {
+    width: 300px;
+    height: 120px;
+    background-color: azure;
+    border: 3px solid brown
+}
+
+.mix-borders {
+    /* 4-Value Border Style - Same as padding, clockwise */
+    border-style: dotted dashed solid double;
+    border-radius: 10px;
+}
+
+.borders {
+    padding: 10px;
+    border-style: outset;
+    border-radius: 50%;
+}
+
+/* Margin */
+
+h4 {
+    width: 400px;
+    height: 120px;
+    background-color: gray;
+    padding: 6px;
+    border: 3px solid brown;
+    margin: 2px;
+}
+
+.margin {
+    border-style: dotted dashed;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+}

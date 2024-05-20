@@ -1,7 +1,15 @@
 .background{
     /* background-color: blue; */
-    background: rgb(36, 3, 0);
-    background: linear-gradient(90deg, rgba(36, 3, 0, 1) 0%, rgba(121, 58, 9, 1) 35%, rgba(255, 88, 0, 1) 100%);
+    /*background: rgb(36, 3, 0);
+    background: linear-gradient(90deg, rgba(36, 3, 0, 1) 0%, rgba(121, 58, 9, 1) 35%, rgba(255, 88, 0, 1) 100%);*/
+    background-image: url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+
+    /* Background Shorthand Property */
+    /* background: bg-color || bg-image || position || size || repeat || attached; */
 }   
 
 .font-example {
