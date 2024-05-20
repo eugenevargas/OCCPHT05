@@ -1,0 +1,120 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1620120966883-d977b57a96ec?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjJTIwb3MlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+
+/* @media media-type (media-feature) {
+  }
+*/
+/* @media - rules that includes block of CSS Properties only is a certain condition is true */
+/* media-type - category of the media for the device
+a.  all - works for all devices
+b.  screen - works for devices with screen
+c. print - works for devices with print preview mode
+d. speech -devices like screen readers where the content is read out loud to the user.*/
+
+/* media feature - specific characteristics 
+breakpoint:
+< 481px             Mobile devices
+481px — 768px       iPads, Tablets
+769px — 1024px       Small screens, laptops
+1025px — 1200px      Desktops, large screens
+1201px and greater    Extra large screens, TV
+
+
+*/

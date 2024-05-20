@@ -1,0 +1,57 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+.scrollable {
+    height: 100vh;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+/* Static Positioning */
+.static {
+    position: static;
+    background-color: lightblue;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Relative Positioning */
+.relative {
+    position: relative;
+    background-color: green;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Absolute Positioning */
+.absolute {
+    /* Relative to the nearest container */
+    position: absolute;
+    background-color: lightcoral;
+    width: 150px;
+    padding: 10px;
+    top: 100px;
+    left: 400px;
+}
+
+/* Fixed Positioning */
+.fixed {
+    position: fixed;
+    background-color: chocolate;
+    width: 200px;
+    padding: 10px;
+    top: 600px;
+    right: 700px;
+
+
+}
+.sticky {
+    position: sticky;
+    background-color: azure;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    top: 0px;
+}
