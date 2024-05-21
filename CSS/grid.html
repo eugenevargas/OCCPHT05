@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px); /* 3 columns of equal width. */
+            grid-template-rows: repeat(2, auto 100px); /* 2 rows. First row has automatic height, second has 100px height. */
+            gap: 20px; /* Gap between items. */
+        }
+
+        .grid-item {
+            background-color: lightgray;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgb(95, 95, 95);
+            transition: all 0.3s ease;
+        }
+
+        .grid-item:hover {
+            /* transform: translateY(-5px); */
+            transform: translate(-5px, -5px); /* Move on both X and Y axis */
+            background-color: aliceblue;
+        }
+
+        .image {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+        <div class="grid-item">Item 5</div>
+        <div class="grid-item">Item 6</div>
+
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+        <div class="grid-item">Item 5</div>
+        <div class="grid-item"><img class="image" src="image.png"/></div>
+
+        
+    </div>
+</body>
+</html>

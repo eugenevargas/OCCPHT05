@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-sizing Layout Property</title>
+
+    <style>
+        .content-box {
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: lightgray;
+            box-sizing: content-box;
+            /* margin: 20px; */
+        }
+
+        .border-box {
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: lightblue;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-sizing Property</h1>
+    <div class="content-box">
+        <p>This is a content box.</p>
+    </div>
+
+    <div class="border-box">
+        <p>This is a border box.</p>
+    </div>
+</body>
+</html>
